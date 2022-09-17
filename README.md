@@ -29,4 +29,4 @@ Keep in mind that this kind of shorthand is meant to make the code cleaner and s
 
 ## References
 1. * [Artturi Jalli](https://betterprogramming.pub/25-useful-javascript-shorthands-for-web-developers-771ac550a7ba)
-2. * [Michael Wanyoike] https://www.sitepoint.com/shorthand-javascript-techniques/)
+2. * [Michael Wanyoike](https://www.sitepoint.com/shorthand-javascript-techniques/)
