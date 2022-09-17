@@ -28,5 +28,5 @@ const answer = myAge > 30 ? "above 30" : myAge < 20 ? "below 20" : "between  30 
 Keep in mind that this kind of shorthand is meant to make the code cleaner and save code lines in simple if-else statements like the one above. Don’t overuse it, as it can make the code less readable!
 
 ## References
-1. https://betterprogramming.pub/25-useful-javascript-shorthands-for-web-developers-771ac550a7ba
-2. https://www.sitepoint.com/shorthand-javascript-techniques/
+1. * [Artturi Jalli](https://betterprogramming.pub/25-useful-javascript-shorthands-for-web-developers-771ac550a7ba)
+2. * [Michael Wanyoike] https://www.sitepoint.com/shorthand-javascript-techniques/)
