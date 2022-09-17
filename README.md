@@ -1,6 +1,6 @@
 # Important-js-shorthands
-I’ve collected this important JavaScript shorthands and techniques as a crucial reference for those who utlize Javascript in day-to-day coding language and 
-I've been using them throughout my journey as a developer.
+I’ve collected this important JavaScript shorthands and techniques as a crucial reference for those who utilize Javascript in day-to-day coding.
+I've been using them throughout my journey as a Javascript coder.
 
 ## 1. The Ternary Operator
 This is a great code saver when you want to write one-Liner `if-else`` Statements.
