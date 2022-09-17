@@ -3,14 +3,14 @@ I’ve collected this important JavaScript shorthands and techniques as a crucia
 I've been using them throughout my journey as a developer.
 
 ## 1. The Ternary Operator
-This is a great code saver when you want to write an if..else statement in just one line.
+This is a great code saver when you want to write one-Liner `if-else`` Statements.
 
 ### Longhand:
 ```javascript
 const myAge = 21;
 let answer;
 
-if (myage > 30) {
+if (myAge > 30) {
     answer = "above 30";
 } else {
     answer = "below 30";
@@ -23,5 +23,10 @@ const answer = myAge > 30 ? "above 30" : "below 30";
 ```
 You can also nest your `if` statement like this:
 ```javascript
-const answer = myage > 30 ? "above 30" : myAge < 20 ? "below 20" : "between  30 - 20";
+const answer = myAge > 30 ? "above 30" : myAge < 20 ? "below 20" : "between  30 - 20";
 ```
+Keep in mind that this kind of shorthand is meant to make the code cleaner and save code lines in simple if-else statements like the one above. Don’t overuse it, as it can make the code less readable!
+
+## References
+1. https://betterprogramming.pub/25-useful-javascript-shorthands-for-web-developers-771ac550a7ba
+2. https://www.sitepoint.com/shorthand-javascript-techniques/
