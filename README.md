@@ -52,19 +52,19 @@ let numbers = [1, 2, 3];
 ```javascript
 const hasNumber1 = numbers.indexOf(1) > -1 // -> True
 ```
-#### SHORTHAND/CLEANER APPROACH
+#### CLEANER APPROACH
 
 ```javascript
 const hasNumber1 = numbers.includes(1)     // -> True
 ```
 
-##4. Check Multiple Conditions
+## 4. Check Multiple Conditions
 To avoid long || chains when checking multiple conditions, you can use what you just learned in the previous tip — that is, using the includes() method instead:
 
 ```javascript
 const num = 1;
 ```
-#### LONGER FORM
+#### LONGHAND
 ```javascript
 if(num == 1 || num == 2 || num == 3){
   console.log("Yay");
