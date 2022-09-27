@@ -91,9 +91,11 @@ const variable2 = variable1  || 'new';
 
 ## 6.  If Presence Shorthand
 This might be trivial, but worth a mention. When doing “`if` checks”, assignment operators can sometimes be omitted
+#### LONG FORM
 ```javascript
 if (likeJavaScript === true)
 ```
+#### SHORTHAND
 ```javascript
 if (likeJavaScript)
 ```
