@@ -76,10 +76,80 @@ if([1,2,3].includes(num)){
   console.log("Yay");
 }
 ```
+## 5. Short-circuit Evaluation Shorthand
+When assigning a variable value to another variable, you may want to ensure that the source variable is not null, undefined, or empty. You can either write a long `if` statement with multiple conditionals, or use a short-circuit evaluation.
+#### Longhand:
+```javascript
+if (variable1 !== null || variable1 !== undefined || variable1 !== '') {
+     let variable2 = variable1;
+}
+```
+### Shorthand:
+```javascript
+const variable2 = variable1  || 'new';
+```
 
+## 6.  If Presence Shorthand
+This might be trivial, but worth a mention. When doing “`if` checks”, assignment operators can sometimes be omitted
+```javascript
+if (likeJavaScript === true)
+```
+```javascript
+if (likeJavaScript)
+```
+## 7 .Destructuring Assignment Shorthand
+This one is priceless, allow us to assign Multiple Values Using One Line.
+```javascript
+let num1, num2;
+```
+#### LONGHAND
+```javascript
+num1 = 10;
+num2 = 100
+```
+
+
+###SHORTHAND
+```javascript
+[num1, num2] = [10, 100];
+```
+
+
+ ### Swap Two Variables Without a Third
+This one is a classic.
+This can also be used to swap two variables without a third helper:
+```javascript
+let x = 1;
+let y = 2;
+```
+#### LONGHAND
+```javascript
+let temp = x;
+x = y;
+y = temp;
+```
+
+
+###SHORTHAND
+```javascript
+[x, y] = [y, x];
+```
+
+
+
+#### LONGHAND
 ```javascript
 
 ```
+
+
+###SHORTHAND
+```javascript
+
+```
+
+
+
 ## References
 1. * [Artturi Jalli](https://betterprogramming.pub/25-useful-javascript-shorthands-for-web-developers-771ac550a7ba)
 2. * [Michael Wanyoike](https://www.sitepoint.com/shorthand-javascript-techniques/)
