@@ -111,7 +111,7 @@ num2 = 100
 ```
 
 
-###SHORTHAND
+### SHORTHAND
 ```javascript
 [num1, num2] = [10, 100];
 ```
