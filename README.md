@@ -1,4 +1,4 @@
-# Important-js-shorthands
+# 10 Important-js-shorthands
 I’ve collected this important JavaScript shorthands and techniques as a crucial reference for those who utilize Javascript in day-to-day coding.
 I've been using them throughout my journey as a Javascript coder.
 
@@ -160,7 +160,7 @@ let newArray = nums1.concat(nums2);
 newArray = [...nums1, ...nums2];
 ```
 
-### . This syntax can also be used instead of pushing values to an array:
+   ### . This syntax can also be used instead of pushing values to an array:
 ```javascript
 let numbers = [1, 2, 3];
 ```
