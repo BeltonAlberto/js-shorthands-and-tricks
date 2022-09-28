@@ -30,7 +30,7 @@ This is a great code saver when you want to write one-Liner `if-else`` Statement
 #### Longhand:
 ```javascript
 const myAge = 21;
-let answer;
+let answer; 
 
 if (myAge > 30) {
     answer = "above 30";
