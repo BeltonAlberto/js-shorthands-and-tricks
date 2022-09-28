@@ -50,6 +50,7 @@ let numbers = [1, 2, 3];
 #### CLASSIC FORM
 ```javascript
 const hasNumber1 = numbers.indexOf(1) > -1 // -> True
+const NoNumber2 = numbers.indexOf(1) === -1 // -> False
 ```
 #### CLEANER APPROACH
 
@@ -58,7 +59,7 @@ const hasNumber1 = numbers.includes(1)     // -> True
 ```
 
 ## 4. Check Multiple Conditions
-To avoid long || chains when checking multiple conditions, you can use what you just learned in the previous tip — that is, using the includes() method instead:
+To avoid long `||` chains when checking multiple conditions, you can use what you just learned in the previous tip — that is, using the includes() method instead:
 
 ```javascript
 const num = 1;
@@ -150,16 +151,16 @@ You can “spread” the elements of an array into another array by using the sp
 const nums1 = [1, 2, 3];
 const nums2 = [4, 5, 6];
 ```
-#### LONHAND
+#### LONGHAND
 ```javascript
 let newArray = nums1.concat(nums2);
 ```
-###SHORTHAND
+#### SHORTHAND
 ```javascript
 newArray = [...nums1, ...nums2];
 ```
 
-## . This syntax can also be used instead of pushing values to an array:
+### . This syntax can also be used instead of pushing values to an array:
 ```javascript
 let numbers = [1, 2, 3];
 ```
@@ -172,8 +173,14 @@ numbers.push(5)
 ```javascript
 numbers = [...numbers, 4, 5];
 ```
-
-
+## 10. Convert String to Number
+You can use the unary operator `(+)` to convert a string to a number:
+```javascript
+const num = parseInt("1000")
+```
+```javascript
+const num = +"1000";
+```
 ## References
 1. * [Artturi Jalli](https://betterprogramming.pub/25-useful-javascript-shorthands-for-web-developers-771ac550a7ba)
 2. * [Michael Wanyoike](https://www.sitepoint.com/shorthand-javascript-techniques/)
