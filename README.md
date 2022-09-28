@@ -30,11 +30,10 @@ if (myAge > 30) {
 }
 ```
 #### Shorthand:
-
 ```javascript
 const answer = myAge > 30 ? "above 30" : "below 30";
 ```
-You can also nest your `if` statement like this:
+You can also nest your `if` statements like this:
 ```javascript
 const answer = myAge > 30 ? "above 30" : myAge < 20 ? "below 20" : "between  30 - 20";
 ```
@@ -78,6 +77,7 @@ if([1,2,3].includes(num)){
 ```
 ## 5. Short-circuit Evaluation Shorthand
 When assigning a variable value to another variable, you may want to ensure that the source variable is not null, undefined, or empty. You can either write a long `if` statement with multiple conditionals, or use a short-circuit evaluation.
+
 #### Longhand:
 ```javascript
 if (variable1 !== null || variable1 !== undefined || variable1 !== '') {
@@ -91,7 +91,7 @@ const variable2 = variable1  || 'new';
 
 ## 6.  If Presence Shorthand
 This might be trivial, but worth a mention. When doing “`if` checks”, assignment operators can sometimes be omitted
-#### LONG FORM
+#### LONGHAND
 ```javascript
 if (likeJavaScript === true)
 ```
@@ -109,15 +109,11 @@ let num1, num2;
 num1 = 10;
 num2 = 100
 ```
-
-
 ### SHORTHAND
 ```javascript
 [num1, num2] = [10, 100];
 ```
-
-
- ### Swap Two Variables Without a Third
+### Swap Two Variables Without a Third
 This one is a classic.
 This can also be used to swap two variables without a third helper:
 ```javascript
@@ -130,9 +126,7 @@ let temp = x;
 x = y;
 y = temp;
 ```
-
-
-###SHORTHAND
+#### SHORTHAND
 ```javascript
 [x, y] = [y, x];
 ```
