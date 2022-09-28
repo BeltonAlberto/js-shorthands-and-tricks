@@ -1,4 +1,4 @@
-# <center> **My-Important-js-shorthands**:blush: </center>
+# **My-Important-js-shorthands** :blush:
 
 I’ve collected this important JavaScript shorthands and techniques as a crucial reference for those who utilize Javascript in day-to-day coding.
 I've been using them throughout my journey as a Javascript coder.
