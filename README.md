@@ -47,12 +47,12 @@ Instead of using the classic `indexOf()` method to check if an element is in the
 ```javascript
 let numbers = [1, 2, 3];
 ```
-#### CLASSIC FORM
+#### Classic Form
 ```javascript
 const hasNumber1 = numbers.indexOf(1) > -1 // -> True
 const NoNumber2 = numbers.indexOf(1) === -1 // -> False
 ```
-#### CLEANER APPROACH
+#### Cleaner Approach
 
 ```javascript
 const hasNumber1 = numbers.includes(1)     // -> True
@@ -64,13 +64,13 @@ To avoid long `||` chains when checking multiple conditions, you can use what yo
 ```javascript
 const num = 1;
 ```
-#### LONGHAND
+#### Longhand
 ```javascript
 if(num == 1 || num == 2 || num == 3){
   console.log("Yay");
 }
 ```
-#### SHORTHAND
+#### Shorthand
 ```javascript
 if([1,2,3].includes(num)){
   console.log("Yay");
@@ -85,18 +85,18 @@ if (variable1 !== null || variable1 !== undefined || variable1 !== '') {
      let variable2 = variable1;
 }
 ```
-### Shorthand:
+#### Shorthand:
 ```javascript
 const variable2 = variable1  || 'new';
 ```
 
 ## 6.  If Presence Shorthand
 This might be trivial, but worth a mention. When doing “`if` checks”, assignment operators can sometimes be omitted
-#### LONGHAND
+#### Longhand
 ```javascript
 if (likeJavaScript === true)
 ```
-#### SHORTHAND
+#### Shorthand
 ```javascript
 if (likeJavaScript)
 ```
@@ -105,12 +105,12 @@ This one is priceless, allow us to assign Multiple Values Using One Line.
 ```javascript
 let num1, num2;
 ```
-#### LONGHAND
+#### Longhand
 ```javascript
 num1 = 10;
 num2 = 100
 ```
-### SHORTHAND
+#### Shorthand
 ```javascript
 [num1, num2] = [10, 100];
 ```
@@ -121,13 +121,13 @@ This can also be used to swap two variables without a third helper:
 let x = 1;
 let y = 2;
 ```
-#### LONGHAND
+#### Longhand
 ```javascript
 let temp = x;
 x = y;
 y = temp;
 ```
-#### SHORTHAND
+#### Shorthand
 ```javascript
 [x, y] = [y, x];
 ```
@@ -137,11 +137,11 @@ Bitwise operators are one of those features you learn about in beginner JavaScri
 
 There is, however, a very practical use case for the Double Bitwise NOT operator. You can use it as a replacement for `Math.floor()`. The advantage of the Double Bitwise NOT operator is that it performs the same operation much faster. You can read more about Bitwise operators here.
 
-#### LONGHAND
+#### Longhand
 ```javascript
 Math.floor(4.9) === 4  //true
 ```
-###SHORTHAND
+#### Shorthand
 ```javascript
 ~~4.9 === 4  //true
 ```
@@ -151,11 +151,11 @@ You can “spread” the elements of an array into another array by using the sp
 const nums1 = [1, 2, 3];
 const nums2 = [4, 5, 6];
 ```
-#### LONGHAND
+#### Longhand
 ```javascript
 let newArray = nums1.concat(nums2);
 ```
-#### SHORTHAND
+#### Shorthand
 ```javascript
 newArray = [...nums1, ...nums2];
 ```
@@ -164,20 +164,22 @@ newArray = [...nums1, ...nums2];
 ```javascript
 let numbers = [1, 2, 3];
 ```
-#### LONGHAND
+#### Longhand
 ```javascript
 numbers.push(4);
 numbers.push(5)
 ```
-###SHORTHAND
+#### Shorthand
 ```javascript
 numbers = [...numbers, 4, 5];
 ```
 ## 10. Convert String to Number
 You can use the unary operator `(+)` to convert a string to a number:
+#### Longhand
 ```javascript
 const num = parseInt("1000")
 ```
+#### Shorthand
 ```javascript
 const num = +"1000";
 ```
