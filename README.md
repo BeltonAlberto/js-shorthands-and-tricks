@@ -59,7 +59,7 @@ let numbers = [1, 2, 3];
 #### Classic Form
 ```javascript
 const hasNumber1 = numbers.indexOf(1) > -1 // -> True
-const NoNumber2 = numbers.indexOf(1) === -1 // -> False
+const hasNumber2 = numbers.indexOf(1) === -1 // -> False
 ```
 #### Cleaner Approach
 
