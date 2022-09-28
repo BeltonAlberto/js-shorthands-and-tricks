@@ -137,19 +137,47 @@ y = temp;
 [x, y] = [y, x];
 ```
 
+## 8. Double Bitwise `NOT` Shorthand
+Bitwise operators are one of those features you learn about in beginner JavaScript tutorials and you never get to implement them anywhere. Besides, who wants to work with ones and zeroes if you are not dealing with binary?
 
+There is, however, a very practical use case for the Double Bitwise NOT operator. You can use it as a replacement for `Math.floor()`. The advantage of the Double Bitwise NOT operator is that it performs the same operation much faster. You can read more about Bitwise operators here.
 
 #### LONGHAND
 ```javascript
-
+Math.floor(4.9) === 4  //true
 ```
-
-
 ###SHORTHAND
 ```javascript
-
+~~4.9 === 4  //true
+```
+## 9. The Spread Operator
+You can “spread” the elements of an array into another array by using the spread operator `(…)`. For example, let’s concatenate two arrays of numbers:
+```javascript
+const nums1 = [1, 2, 3];
+const nums2 = [4, 5, 6];
+```
+#### LONHAND
+```javascript
+let newArray = nums1.concat(nums2);
+```
+###SHORTHAND
+```javascript
+newArray = [...nums1, ...nums2];
 ```
 
+## . This syntax can also be used instead of pushing values to an array:
+```javascript
+let numbers = [1, 2, 3];
+```
+#### LONGHAND
+```javascript
+numbers.push(4);
+numbers.push(5)
+```
+###SHORTHAND
+```javascript
+numbers = [...numbers, 4, 5];
+```
 
 
 ## References
