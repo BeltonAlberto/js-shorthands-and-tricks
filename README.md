@@ -1,7 +1,7 @@
 # **some-Important-js-shorthands** :blush:
 ![TJavaScript random icon!](https://github.com/BeltonAlberto/js-shorthands-and-tricks/blob/main/image/Alecive-Flatwoken-Apps-File-Javascript.ico?raw=true)
 
-**I’ve collected this important JavaScript shorthands and techniques as a crucial reference for those who utilize Javascript frequently. I've implemented them throughout my journey as a Javascript coder.**
+**I’ve collected this important JavaScript shorthands and techniques as a crucial reference for those who utilize Javascript frequently. I've implemented them throughout my journey as a Javascript coder. If you're senior dev some of them may seem quite obvious though**
 
 ## 1.  Declaring Variables Shorthand
 It’s good practice to declare your variable assignments at the beginning of your functions. This shorthand method can save you lots of time and space when declaring multiple variables at the same time.
