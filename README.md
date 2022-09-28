@@ -15,6 +15,13 @@ let z = 3;
 ```javascript
 let x, y, z=3;
 ```
+##### Or either
+```javascript
+let x,
+    y,
+    z=3;
+```
+
 ## 2.  The Ternary Operator
 This is a great code saver when you want to write one-Liner `if-else`` Statements.
 
