@@ -1,4 +1,4 @@
-# **My-Important-js-shorthands** :blush:
+# **some-Important-js-shorthands** :blush:
 ![TJavaScript random icon!](https://github.com/BeltonAlberto/js-shorthands-and-tricks/blob/main/image/Alecive-Flatwoken-Apps-File-Javascript.ico?raw=true)
 
 **I’ve collected this important JavaScript shorthands and techniques as a crucial reference for those who utilize Javascript frequently. I've implemented them throughout my journey as a Javascript coder.**
