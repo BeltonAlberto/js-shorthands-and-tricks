@@ -190,8 +190,9 @@ let numbers = [1, 2, 3];
 
 // LONGER FORM
 const hasNumber1 = numbers.indexOf(1) > -1 // -> True
+const hasNumber2 = number.indexOf(1) != -1 // -> True
 
-// SHORTHAND/CLEANER APPROACH
+// CLEANER APPROACH
 const hasNumber1 = numbers.includes(1)     // -> True
 ```
 
