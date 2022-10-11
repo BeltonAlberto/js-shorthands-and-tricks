@@ -181,7 +181,21 @@ numbers.push(5)
 ```javascript
 numbers = [...numbers, 4, 5];
 ```
-## 10. Convert String to Number
+## 10. Check if an Item Is in an Array
+This one is not necessarily a shorthand, as you barely save a couple of characters. But it is a way cleaner approach.
+
+Instead of using the `indexOf()` method to check if an element is in the array, you can use the `includes()` method. This makes your intent very clear
+```javascript
+let numbers = [1, 2, 3];
+
+// LONGER FORM
+const hasNumber1 = numbers.indexOf(1) > -1 // -> True
+
+// SHORTHAND/CLEANER APPROACH
+const hasNumber1 = numbers.includes(1)     // -> True
+```
+
+## 11. Convert String to Number
 You can use the unary operator `(+)` to convert a string to a number:
 #### Longhand
 ```javascript
