@@ -139,8 +139,18 @@ y = temp;
 ```javascript
 [x, y] = [y, x];
 ```
-
-## 8. Double Bitwise `NOT` Shorthand
+## 8. Assign Multiple Variables to the Same Value
+#### Longhand
+```javascript
+    let a =10,
+        b = 10,
+        c = 10;
+```
+#### Shorthand
+```javascript
+let a = b = c = 10;
+```
+## 9. Double Bitwise `NOT` Shorthand
 Bitwise operators are one of those features you learn about in beginner JavaScript tutorials and you never get to implement them anywhere. Besides, who wants to work with ones and zeroes if you are not dealing with binary?
 
 There is, however, a very practical use case for the Double Bitwise NOT operator. You can use it as a replacement for `Math.floor()`. The advantage of the Double Bitwise NOT operator is that it performs the same operation much faster. You can read more about Bitwise operators here.
@@ -153,7 +163,7 @@ Math.floor(4.9) === 4  //true
 ```javascript
 ~~4.9 === 4  //true
 ```
-## 9. The Spread Operator
+## 10. The Spread Operator
 You can “spread” the elements of an array into another array by using the spread operator `(…)`. For example, let’s concatenate two arrays of numbers:
 ```javascript
 const nums1 = [1, 2, 3];
@@ -181,7 +191,7 @@ numbers.push(5)
 ```javascript
 numbers = [...numbers, 4, 5];
 ```
-## 10. Check if an Item Is in an Array
+## 11. Check if an Item Is in an Array
 This one is not necessarily a shorthand, as you barely save a couple of characters. But it is a way cleaner approach.
 
 Instead of using the `indexOf()` method to check if an element is in the array, you can use the `includes()` method. This makes your intent very clear
@@ -196,7 +206,7 @@ const hasNumber2 = number.indexOf(1) != -1 // -> True
 const hasNumber1 = numbers.includes(1)     // -> True
 ```
 
-## 11. Convert String to Number
+## 12. Convert String to Number
 You can use the unary operator `(+)` to convert a string to a number:
 #### Longhand
 ```javascript
