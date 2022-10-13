@@ -142,13 +142,13 @@ y = temp;
 ## 8. Assign Multiple Variables to the Same Value
 #### Longhand
 ```javascript
-    let a =10,
+    let a = 10,
         b = 10,
         c = 10;
 ```
 #### Shorthand
 ```javascript
-let a = b = c = 10;
+    let a = b = c = 10;
 ```
 ## 9. Double Bitwise `NOT` Shorthand
 Bitwise operators are one of those features you learn about in beginner JavaScript tutorials and you never get to implement them anywhere. Besides, who wants to work with ones and zeroes if you are not dealing with binary?
