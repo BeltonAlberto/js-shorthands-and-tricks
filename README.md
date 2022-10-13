@@ -14,13 +14,13 @@ let z = 3;
 ```
 #### Shorthand:
 ```javascript
-let x, y, z=3;
+let x, y, z = 3;
 ```
 ##### Or either
 ```javascript
 let x,
     y,
-    z=3;
+    z = 3;
 ```
 
 ## 2.  The Ternary Operator
